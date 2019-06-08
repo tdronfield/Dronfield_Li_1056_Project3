@@ -1,19 +1,249 @@
+body{
+  margin: 0 auto;
+  width: 1280px;
+}
+
+main{
+  margin: auto 0;
+}
+
 .hidden{display:none;}
 
-.mainHeader{}
+.mainHeader{
+  width: 100%;
+  height: 210px;
+  background-color: #ababab;
+  display: flex;
+  flex-direction: row;}
+.headerLogo{
+  width: 225px;
+  height: 200px;
+  margin: 10px 0 0 75px;
+  background-color: #686a67;}
+.main-nav{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  text-align: right;
+  width: 1055px;}
+.main-nav h2{
+  text-shadow: 3px 3px 3px #333;
+  padding: 20px 5px 10px 0;
+  font-size: 48pt;}
 
-.sideBar{}
+#socialMedia{
+  width: 240px;
+  height: 40px;
+  margin: 30px 10px 0px 0;
+  align-self: flex-end;
+  justify-content: space-around;}
+#socialMedia ul{
+  width: 100%;
+  height: 40px;
+  background-color: #686a67;}
+#socialMedia ul li{
+  list-style-type: none;
+  display: inline;
+  width: 30px;
+  height: 30px;
+  background-color: #686a67;}
 
-.dedication{}
+#pageLinks{
+  width: 930px;
+  height: 50px;
+  margin: 30px 10px 0 0;
+  align-self: flex-end;
+  justify-content: space-around;}
+#pageLinks ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#pageLinks ul li{display: inline;}
 
-.hatchery{}
 
-.festival{}
+.dedication{
+  width: 100%;
+  height: 180px;
+  background-color: #ababab;}
+.dedication h2{
+  padding: 25px 0 0 25px;}
+.dedication p{
+  padding: 25px 0 0 25px;}
 
-.meetings{}
+#sideBar{
+  width: 265px;
+  height: 2088px;
+  background-color: #686a67;
+  text-align: center;
+  margin: auto 0;}
+.imgContainer{
+  width: 210px;
+  height: 175px;
+  margin: auto;
+  background-color: #ababab;}
 
-.evenings{}
+.main-content-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;}
+#main-content{
+  width: 910px;
+  margin: 0 auto;}
+#main-content h2{font-size: ;}
+#main-content h3{font-size: ;}
 
-.gear{}
 
-.mainFooter{}
+.hatchery{
+  margin-top: 35px;
+  text-align: center;}
+
+.hatcheryContainer{
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0px 50px 0;}
+
+#hatcheryImg{
+  width: 325px;
+  height: 325px;
+  margin: 80px 50px 0 0;
+  background-color: #ababab;}
+
+#hatcheryParagraph{width: 545px; text-align: right;}
+#hatcheryParagraph p{padding-bottom: 25px; height: 133px;}
+
+
+.festival{text-align: center;}
+.festival div{margin-top: 35px;}
+
+
+.meetings{text-align: center; margin-top: 35px;}
+.meetings div{margin-top: 35px;}
+#meetingsBottom{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:
+}
+#meetingsBottom p{
+  width: 505px;
+  margin: 35px 0 0px 0px;
+  padding: 75px 35px 0 0;
+}
+#meetings-bottom-img{
+  width: 370px;
+  height: 197px;
+  background-color: #ababab;}
+
+
+.evenings{text-align: center; margin-top: 35px;}
+#eveningsContainer{
+  display:flex;
+  flex-direction:row;
+  margin-top: 35px;
+  justify-content: space-between;}
+#eveningsImg{
+  width: 357px;
+  height: 357px;
+  background-color: #ababab;}
+#eveningsParagraph{
+  height: 265px;
+  width: 525px;
+  background-color: #ababab;
+  margin-top: 45px;}
+
+.gear{
+  text-align: center;
+  margin-top: 35px;
+  justify-content: space-between;}
+#gear-top{
+  margin-top: 35px;
+  height: 290px;
+  display: flex;
+  flex-direction: row;}
+#gear-top-img{
+  height: 290px;
+  width: 360px;
+  background-color: #ababab;}
+#gear-top p{
+  width: 540px;
+  height: 125px;
+  background-color: #ababab;
+  margin-left: 35px;}
+#gear-top span p{
+  margin-top: 35px;
+}
+#gear-bottom{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+/*///////////////////////////////////////////*/
+              /*ABOUT PAGE*/
+/*///////////////////////////////////////////*/
+
+.aboutTRAA{}
+
+.riverImgs{}
+.topRow{}
+.bottomRow{}
+
+.moreAbout{}
+
+.get-in-touch{}
+#yourName
+#yourEmail
+#yourMessage
+
+
+/*///////////////////////////////////////////*/
+              /*FOOTER*/
+/*///////////////////////////////////////////*/
+.mainFooter{
+  width: 100%;
+  height: 360px;
+  background-color: #686a67;}
+#footer-nav-links-container{width: 100%;}
+.footer-nav-links{width: 935px;}
+.footer-nav-links ul{
+  height: 50px;
+  padding: 25px 0 0 25px;}
+.footer-nav-links ul li{
+  display: inline;
+  margin: 25px 25px 0 0;}
+
+#contact-social-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;}
+
+#footer-contact-us{
+  width: 1205px;}
+#contact-header{
+  width:240px;
+  height: 40px;
+  margin: 10px 0 0 25px;}
+#contact-content{
+  display: flex;
+  flex-direction: row;
+  padding: 25px 0 0 25px;
+  text-align: center;}
+#email-content{
+  width: 400px;
+  height: 110px;
+  padding-top: 50px;}
+#mailing-address{
+  width: 605px;
+  height: 150px;
+  padding-top: 25px;}
+#address-foot-note{
+  width: 960px;
+  height: 30px;
+  margin: 10px 0 0 10px;}
+
+#footer-social-media-container{width: 70px;}
+#footer-social-media{margin-left:}
+#footer-social-media ul{
+  width: 45px;
+  height: 270px;
+  background-color: #ababab;}
+#footer-social-media ul li{}
