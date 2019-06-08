@@ -86,7 +86,8 @@ main{
 .main-content-container{
   width: 100%;
   display: flex;
-  flex-direction: row;}
+  flex-direction: row;
+  margin: auto;}
 #main-content{
   width: 910px;
   margin: 0 auto;}
@@ -181,32 +182,80 @@ main{
               /*ABOUT PAGE*/
 /*///////////////////////////////////////////*/
 
-.aboutTRAA{}
+.aboutTRAA{text-align: center;}
+.aboutTRAA h2{margin: 45px 0 45px 0;}
 
-.riverImgs{}
-.topRow{}
-.bottomRow{}
+.riverImgs{
+  margin: auto;
+  margin-top: 65px;
+}
+#topRow{
+  width: 910px;
+  height: 205px;
+  background-color: #ababab;}
+#bottomRow{
+  width: 910px;
+  height: 205px;
+  background-color: #ababab;}
 
-.moreAbout{}
+.moreAbout{
+  text-align: center;
+  margin-top: 20px;
+  height: 485px;}
+.moreAbout h2{margin: 45px 0 45px 0;}
 
-.get-in-touch{}
-#yourName
-#yourEmail
-#yourMessage
+.get-in-touch{
+  text-align: center;
+  margin: auto;
+  margin-top: 45px;
+  width: 800px;
+  height: 496px;
+  background-color: #ababab;
+}
 
-
+#get-in-touchdiv{
+  margin: auto;
+  width: 800px;
+  height: 496px;
+  background-color: #ababab;
+}
+#yourName{
+  width: 540px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: auto;
+  margin-top: 45px;
+}
+#yourName p{padding: 17px 0 17px 0;}
+#yourEmail{
+  width: 540px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: auto;
+  margin-top: 45px;
+}
+#yourEmail p{padding: 17px 0 17px 0;}
+#yourMessage{
+  width: 540px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: auto;
+  margin-top: 45px;
+}
+#yourMessage p{padding: 17px 0 17px 0;}
 /*///////////////////////////////////////////*/
               /*FOOTER*/
 /*///////////////////////////////////////////*/
 .mainFooter{
   width: 100%;
-  height: 360px;
+  height: 365px;
   background-color: #686a67;}
 #footer-nav-links-container{width: 100%;}
 .footer-nav-links{width: 935px;}
 .footer-nav-links ul{
   height: 50px;
-  padding: 25px 0 0 25px;}
+  padding: 25px 0 0 25px;
+  background-color: #ababab;}
 .footer-nav-links ul li{
   display: inline;
   margin: 25px 25px 0 0;}
@@ -219,9 +268,9 @@ main{
 #footer-contact-us{
   width: 1205px;}
 #contact-header{
-  width:240px;
+  width: 240px;
   height: 40px;
-  margin: 10px 0 0 25px;}
+  margin: 25px 0 0 70px;}
 #contact-content{
   display: flex;
   flex-direction: row;
@@ -238,10 +287,10 @@ main{
 #address-foot-note{
   width: 960px;
   height: 30px;
-  margin: 10px 0 0 10px;}
+  margin-left: 10px;}
 
 #footer-social-media-container{width: 70px;}
-#footer-social-media{margin-left:}
+#footer-social-media{margin-left: 25px;}
 #footer-social-media ul{
   width: 45px;
   height: 270px;
